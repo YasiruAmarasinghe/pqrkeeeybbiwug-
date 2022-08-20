@@ -1,4 +1,3 @@
-
 const fs = require('fs')
 const chalk = require('chalk')
 
@@ -43,10 +42,10 @@ global.packname = "\n\n\n\n nuwa " //ur sticker watermark packname
 global.author = "Nuwa Inc | 2022" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") 
+global.thum = fs.readFileSync("./src/Code.png") //ur thumb pic
+global.log0 = fs.readFileSync("./src/Code.png") //ur logo pic
+global.err4r = fs.readFileSync("./src/Code.png")//ur error pic
+global.thumb = fs.readFileSync("./src/Code.png")
 global.premium = ['916909137213'] 
 global.sessionName = 'session'
 global.antitags = true
