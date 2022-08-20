@@ -66,7 +66,7 @@ async function Boty() {
     const Boty = BotyConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['404BOT M-D','Chrome','1.0.0'],
+        browser: ['Nuwa','Chrome','1.0.0'],
         auth: state
     })
 
@@ -93,7 +93,7 @@ async function Boty() {
         if (!Boty.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(Boty, mek, store)
-        require("./Boty")(Boty, m, chatUpdate, store)
+        require("./Nuwamd")(Boty, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
