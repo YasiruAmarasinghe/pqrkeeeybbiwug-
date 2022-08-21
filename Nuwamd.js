@@ -84,7 +84,7 @@ if (!('templateVideo' in setting)) setting.templateVideo = false
         }
 
 const reply = (teks) => {
-           NuwaInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `${ownername}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz}`}}}, { quoted: m})
+           NuwaInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `${ownername}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./src/Code.png`),"sourceUrl": `${linkz}`}}}, { quoted: m})
         }
       
         //Public & Self\\
