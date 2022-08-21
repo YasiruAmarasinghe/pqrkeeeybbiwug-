@@ -74,7 +74,7 @@ global.ehi{
 	url5:'https://www.mediafire.com/file/e6x0keykpy6hihb/%25F0%259F%259A%2580%25E1%25B4%2598%25E1%25B4%2580%25C9%25AA%25E1%25B4%2585_%25CA%258F%25E1%25B4%258F%25E1%25B4%259C%25E1%25B4%259B%25E1%25B4%259C%25CA%2599%25E1%25B4%2587%25F0%259F%259A%2580.ehi/file',
 	url6:'https://www.mediafire.com/file/ra2zzoe8ztemvpa/%25F0%259F%259A%2580%25E1%25B4%2598%25E1%25B4%2580%25C9%25AA%25E1%25B4%2585_%25EA%259C%25B0%25E1%25B4%2580%25E1%25B4%2584%25E1%25B4%2587%25CA%2599%25E1%25B4%258F%25E1%25B4%258F%25E1%25B4%258B%25F0%259F%259A%2580.ehi/file'
 }
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
+global.thumb = fs.readFileSync('./src/Code.png')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
